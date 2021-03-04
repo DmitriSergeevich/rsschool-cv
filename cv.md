@@ -6,7 +6,7 @@
 
 ## About me:
 
-I am begginer frontend developer who currently live in Yekaterinburg, Russia.
+I am beginer frontend developer who currently live in Yekaterinburg, Russia.
 I started learning frontend, because I like accuracy science, and solve the tasks.
 
 ## Skills:
