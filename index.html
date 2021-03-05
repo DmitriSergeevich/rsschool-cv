@@ -1,75 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>CV</title>
-</head>
-<body>
-    <div>
-        <header>
-            <img src="https://a2ch.ru/i/1c328b659d5d46dcfc283f9ebb1d2b79" alt="codercat">
-            <div>
-                <h1>Curriculum vitae.</h>
-            </div>
-
-
-            <p>Name: Dmitry Likhachev</p>
-            <p>Phone: +7-904-234-19-58</p>
-            <p>e-mail: valomon@yandex.ru</p>
-
-
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>CV</title>
+    </head>
+    <body>
+        <header>             
+            <picture>
+                <img src="https://a2ch.ru/i/1c328b659d5d46dcfc283f9ebb1d2b79" alt="codercat">
+            </picture>     
+            <h1>Curriculum vitae.</h1>                      
         </header>
-    </div>
-    <div>
         <main>
-            <div>
-                <div class="tems";>
-                    <h2>About me:</h2>
-                    <p>I am begginer frontend developer who currently live in Yekaterinburg, Russia.</p>
-                    <p>I started learning frontend, because I like accuracy science, and solve the tasks.</p>
-                </div>
-                <div class="tems";>
-                    <h2>Skills:</h2>
-                    <p>My skills in frontend developing while in the beginning. A little Pascal. A little Photoshop.</p>
-                </div>
-                <div class="tems";>
-                    <h2>Code example:</h2>
-                    <pre >
-                    const filterString = (str, char) => {
-                    let i = 0;
-                    let result = '';
-                    while (i < str.length) {
-                    const currentChar = str[i];
-                    if (currentChar !== char) {
-                    result = '${result}${currentChar}';
+            <section itemscope itemtype="http://schema.org/Organization">
+                <h2>Contacts:</h2>
+                <ul>
+                    <li><strong>Name:</strong><span itemprop="name"></span> Dmitry Likhachev.</li>
+                    <li><strong>Phone:</strong> <span itemprop="telephone"></span>+7-950-564-20-77.</li>
+                    <li><strong>e-mail:</strong> <span itemprop="email"></span>valomon@yandex.ru.</li>
+                </ul>
+                
+            </section>
+            <section>
+                <h2>About me:</h2>
+                <p>I am beginer frontend developer who currently live in Yekaterinburg, Russia.
+                <br> I started learning frontend, because I like accuracy science, and solve the tasks.</p>
+            </section>
+            <section>
+                <h2>Skills:</h2>
+                <p>My skills in frontend developing while in the beginning. Base of JS, CSS, HTML.</p>
+            </section>
+            <section>
+                <h2>Code example:</h2>
+                <pre >
+                    
+                    function squareDigits(num){
+                     return Number(String(num).split('').map(c=>Math.pow(c, 2)).join(''))
                     }
-                    i += 1;
-                    }
-                    return result;
-                    };
-                    </pre>
-                </div>
-                <div class="tems";>
-                    <h2>Education:</h2>
-
-                    <p>2007-2011 Sarapul technical school of mechanical engineering and information technologies.</p>
-                    <p>2011-2015 Urals Federal University.</p>
-
-                </div>
-
-                <div class="tems";>
-                    <h2>Languages:</h2>
+                    
+                </pre>
+            </section>
+            <section>
+                <h2>Education:</h2>
+                <ul>
+                    <li>2007-2011 Sarapul technical school of mechanical engineering and information technologies.</li>
+                    <li>2011-2015 Urals Federal University.</li>
+                </ul>                
+            </section>
+            <section>
+                <h2>Languages:</h2>
                     <ul>
                         <li>Russian - native.
                         <li>English - pre-intermediate.
                     </ul>
-                </div>
-            </div>
+            </section>
         </main>
-    </div>
-</body>
-
+        <footer>
+            <time datetime="2021-03-05">05 марта 2021г.</time>
+        </footer>
+    </body>
+</html>
 
