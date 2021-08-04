@@ -1,8 +1,8 @@
 # Curriculum vitae.
 
-*Name:* Dmitry Likhachev;
-*Phone:* +7-950-564-19-58;
-*E-mail:* valomon@yandex.ru;
+*Name:* Dmitry Likhachev;\
+*Phone:* +7-950-564-19-58;\
+*E-mail:* valomon@yandex.ru;\
 *Telegram:* [@valomon](https://t.me/VAL0MON);
 
 ## About me:
