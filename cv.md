@@ -18,18 +18,17 @@ HTML, CSS, js, ts, webpack, git
 
 ## Study projects:
 
-[OnlineZoo](https://rolling-scopes-school.github.io/dmitrisergeevich-JSFE2021Q1/online-zoo/index.html) - многостраничное приложение с адаптивной версткой
+[OnlineZoo](https://rolling-scopes-school.github.io/dmitrisergeevich-JSFE2021Q1/online-zoo/index.html) - is a multi-page responsive application.
 
-[English for kids](https://lerning-english.netlify.app/#main) - одностраничное приложение в котором реализован роутинг и анимация.
+[English for kids](https://lerning-english.netlify.app/#main) - is a single page application that implements routing and animation.
 
-[Async Race](https://asyncrace.netlify.app/) - тоже spa, работа с API и промисами, отправка запросов на сервер и обработка ответов сервера.
-Для работы приложения нужно клонировать репозиторий [сервера](https://github.com/mikhama/async-race-api) и запустить его.
+[Async Race](https://asyncrace.netlify.app/) - is also a spa, working with APIs and promises, sending requests to the server and processing server responses. For the application to work, you need to clone the [server](https://github.com/mikhama/async-race-api) repository and run it.
 
-English for kids и Async Race написаны на TypeScript, и собраны Webpack.
+English for kids и Async Race are written in TypeScript and built on Webpack.
 
-[Virtual piano](https://rolling-scopes-school.github.io/dmitrisergeevich-JSFE2021Q1/virtual-piano/) - приложение попроще на отработку взаимодействия с DOM и работа с событиями.
+[Virtual piano](https://rolling-scopes-school.github.io/dmitrisergeevich-JSFE2021Q1/virtual-piano/) - is a simpler application for practicing interaction with the DOM and working with events.
 
-[Photo-filter](https://rolling-scopes-school.github.io/dmitrisergeevich-JSFE2021Q1/photo-filter/) - работа с изображениями, применение canvas.
+[Photo-filter](https://rolling-scopes-school.github.io/dmitrisergeevich-JSFE2021Q1/photo-filter/) - working with images and using canvas.
 
 ## Education:
 
